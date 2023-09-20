@@ -91,6 +91,7 @@ namespace ModuleInstaller
                 string NcaExe = diskSpace + username + exepath;
                 Process.Start(NcaExe);
                 Task.Delay(1000);
+
                 Console.WriteLine("NcaLayer Started!");
                 Console.WriteLine("Now you can close this windows!");
             }
